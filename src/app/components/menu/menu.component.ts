@@ -40,13 +40,13 @@ export class MenuComponent implements OnInit {
             id: '21',
             titre: 'Articles',
             icon: 'fa-solid fa-box-archive',
-            url: ''
+            url: 'articles'
           },
           {
             id: '22',
             titre: 'Mouvements de stock',
             icon: 'fa-solid fa-list',
-            url: ''
+            url: 'mouvement-de-stock'
           }
         ]
     },
@@ -60,13 +60,13 @@ export class MenuComponent implements OnInit {
             id: '31',
             titre: 'Clients',
             icon: 'fa-solid fa-user',
-            url: ''
+            url: 'clients'
           },
           {
             id: '32',
             titre: 'Commandes clients',
             icon: 'fa-solid fa-basket-shopping',
-            url: ''
+            url: 'commandes-client'
           }
         ]
     },
@@ -80,13 +80,13 @@ export class MenuComponent implements OnInit {
             id: '41',
             titre: 'Fournisseurs',
             icon: 'fa-solid fa-user-check',
-            url: ''
+            url: 'fournisseurs'
           },
           {
             id: '42',
             titre: 'Commandes fournisseurs',
             icon: 'fa-solid fa-truck-fast',
-            url: ''
+            url: 'commandes-fournisseur'
           }
         ]
     },
