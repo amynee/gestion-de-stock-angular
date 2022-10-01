@@ -1,0 +1,96 @@
+<div class="row mb-2 border-2 custom-border">
+    <div class="col-md-2">
+        <div class="p-1 text-center">
+            <img src="assets/product.png" alt="product" width="85px" height="100px">
+        </div>
+    </div>
+    <div class="col-md-5 border-end border-start">
+        <div class="row mb-0 pb-0">
+            <div class="col-1">
+                <i class="fa-solid fa-circle-info gold-color"></i>
+            </div>
+            <div class="col-11">Nom</div>
+        </div>
+        <div class="row mb-0 pb-0">
+            <div class="col-1">
+                <i class="fa-solid fa-address-card gold-color"></i>
+            </div>
+            <div class="col-11">Prénom</div>
+        </div>
+        <div class="row  mb-0 pb-0">
+            <div class="col-1">
+                <i class="fa-solid fa-phone gold-color"></i>
+            </div>
+            <div class="col-10">216 20 800 843</div>
+        </div>
+    </div>
+
+    <!--Commande details-->
+    <div class="col-md-3 border-end">
+        <div class="h-100">
+            <div class="row mb-0 pb-0">
+                <div class="col-1">
+                    <i class="fa-solid fa-qrcode gold-color"></i>
+                </div>
+                <div class="col-11">Cmd-123456789</div>
+            </div>
+            <div class="row mb-0 pb-0">
+                <div class="col-1">
+                    <i class="fa-solid fa-calendar-check gold-color"></i>
+                </div>
+                <div class="col-11">12.12.2022</div>
+            </div>
+            <div class="row  mb-0 pb-0">
+                <div class="col-1">
+                    <i class="fa-solid fa-phone gold-color"></i>
+                </div>
+                <div class="col-10">216 20 800 843</div>
+            </div>
+            <div class="row  mb-0 pb-0">
+                <div class="col-1">
+                    <i class="fa-solid fa-cart-arrow-down gold-color"></i>
+                </div>
+                <div class="col-11">LIVREE</div>
+            </div>
+        </div>
+    </div>
+    <!--Buttons Events-->
+    <div class="col-md-2 ps-0">
+        <div class="justify-content-between">
+            <div class="h-100">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-pencil"></i>&nbsp; modifier</button>
+            </div>
+            <div class="h-100">
+                <button class="btn btn-link"><i class="fa-solid fa-trash"></i>&nbsp; Supprimer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Correction De Stock</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Quantite">
+            </div>
+            <div class="mb-3">
+              <select name="" id="" class="form-control">
+                <option value="">Correction Positive</option>
+                <option value="">Correction Negative</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-power-off me-1"></i> Annuler</button>
+          <button type="button" class="btn btn-primary"><i class="fa-solid fa-floppy-disk me-1"></i> Enregistrer</button>
+        </div>
+      </div>
+    </div>
+</div>
