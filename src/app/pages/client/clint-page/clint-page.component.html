@@ -1,0 +1,23 @@
+<div>
+    <div class="row">
+        <div class="col-md-7">
+            <h2>Liste Des Clients</h2>
+        </div>
+        <div class="col-md-5 text-end">
+            <app-actions-buttons
+                (clickEvent)="newClient()"
+            ></app-actions-buttons>
+        </div>
+    </div>
+    <div class="row mt-3 mb-3 ms-0">
+        <app-clts-frs-details></app-clts-frs-details>
+        <app-clts-frs-details></app-clts-frs-details>
+        <app-clts-frs-details></app-clts-frs-details>
+        <app-clts-frs-details></app-clts-frs-details>
+    </div>
+    <div class="row text-center">
+        <div class="col">
+            <app-pagination></app-pagination>
+        </div>
+    </div>
+</div>
